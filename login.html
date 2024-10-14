@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الدخول</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>تسجيل الدخول</h1>
+        <input type="email" id="login-email" placeholder="البريد الإلكتروني" />
+        <input type="password" id="login-password" placeholder="كلمة المرور" />
+        <button id="login-button">تسجيل الدخول</button>
+        <p>ليس لديك حساب؟ <a href="register.html">إنشاء حساب</a></p>
+    </div>
+    <footer>
+        <p>حقوق النشر © حيدر عبد العزيز</p>
+    </footer>
+    <script src="login.js"></script>
+    <script src="firebaseConfig.js"></script>
+</body>
+</html>
